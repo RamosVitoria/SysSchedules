@@ -1,0 +1,102 @@
+object fLogin: TfLogin
+  Left = 0
+  Top = 0
+  BorderStyle = Single
+  Caption = 'Tela de Login'
+  ClientHeight = 781
+  ClientWidth = 553
+  Fill.Color = xFFC0DFE6
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    StyledSettings = [FontColor]
+    Position.X = 120.000000000000000000
+    Position.Y = 211.000000000000000000
+    TextSettings.Font.Family = 'Nirmala UI'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000200000004000000}
+    Text = 'USU'#193'RIO:'
+    TabOrder = 3
+  end
+  object Label2: TLabel
+    StyledSettings = [FontColor]
+    Position.X = 120.000000000000000000
+    Position.Y = 291.000000000000000000
+    TextSettings.Font.Family = 'Nirmala UI'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000200000004000000}
+    Text = 'SENHA:'
+    TabOrder = 2
+  end
+  object edtUsuario: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 5
+    Position.X = 120.000000000000000000
+    Position.Y = 244.000000000000000000
+    Size.Width = 305.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object edtSenha: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Position.X = 120.000000000000000000
+    Position.Y = 332.000000000000000000
+    Size.Width = 305.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object btnEntrar: TButton
+    StyledSettings = [Family, Size, Style]
+    Position.X = 160.000000000000000000
+    Position.Y = 400.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Text = 'ENTRAR'
+    TextSettings.FontColor = claGreen
+    OnClick = btnEntrarClick
+  end
+  object btnSair: TButton
+    StyledSettings = [Family, Size, Style]
+    Position.X = 256.000000000000000000
+    Position.Y = 400.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Text = 'SAIR'
+    TextSettings.FontColor = claRed
+    OnClick = btnSairClick
+  end
+  object Label3: TLabel
+    StyledSettings = [FontColor]
+    Position.X = 235.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 144.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Miriam Mono CLM BoldOblique'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000100000004000000}
+    Text = 'LOGIN'
+    TabOrder = 8
+  end
+  object uqUsuarios: TUniQuery
+    Connection = Modulo.Conexao
+    SQL.Strings = (
+      'SELECT * FROM usuarios')
+    Active = True
+    Left = 72
+    Top = 24
+  end
+  object udsUsuarios: TUniDataSource
+    DataSet = uqUsuarios
+    Left = 424
+    Top = 24
+  end
+end

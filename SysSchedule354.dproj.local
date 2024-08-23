@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/06/24 08:22:32.000.563,=C:\Users\Alunos\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2024/06/24 08:23:21.000.380,C:\Vitória 354\SysSchedules354\uSplash.fmx=C:\Users\Alunos\Documents\Embarcadero\Studio\Projects\Unit6.fmx</Transaction>
+    <Transaction>2024/06/24 08:23:21.000.380,C:\Vitória 354\SysSchedules354\uSplash.pas=C:\Users\Alunos\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2024/06/24 08:23:41.000.602,C:\Vitória 354\SysSchedules354\SysSchedule354.dproj=C:\Users\Alunos\Documents\Embarcadero\Studio\Projects\Project3.dproj</Transaction>
+    <Transaction>2024/06/24 08:40:10.000.059,=C:\Vitória 354\SysSchedules354\Unit1.pas</Transaction>
+    <Transaction>2024/06/24 08:40:57.000.624,C:\Vitória 354\SysSchedules354\uLogin.pas=C:\Vitória 354\SysSchedules354\Unit1.pas</Transaction>
+    <Transaction>2024/06/24 08:40:57.000.624,C:\Vitória 354\SysSchedules354\uLogin.fmx=C:\Vitória 354\SysSchedules354\Unit1.fmx</Transaction>
+    <Transaction>2024/06/24 08:45:23.000.402,=C:\Vitória 354\SysSchedules354\Unit1.pas</Transaction>
+    <Transaction>2024/06/24 08:46:09.000.794,C:\Vitória 354\SysSchedules354\uModulo.pas=C:\Vitória 354\SysSchedules354\Unit1.pas</Transaction>
+    <Transaction>2024/06/24 08:46:09.000.794,C:\Vitória 354\SysSchedules354\uModulo.dfm=C:\Vitória 354\SysSchedules354\Unit1.dfm</Transaction>
+    <Transaction>2024/06/24 09:15:56.000.564,=C:\Vitória 354\SysSchedules354\Unit1.pas</Transaction>
+    <Transaction>2024/06/24 09:16:10.000.718,C:\Vitória 354\SysSchedules354\uPrincipal.pas=C:\Vitória 354\SysSchedules354\Unit1.pas</Transaction>
+    <Transaction>2024/06/24 09:16:10.000.718,C:\Vitória 354\SysSchedules354\uPrincipal.fmx=C:\Vitória 354\SysSchedules354\Unit1.fmx</Transaction>
+    <Transaction>2024/06/30 12:57:52.897,=C:\Delphi\SysSchedules354\SysSchedules354\Unit1.pas</Transaction>
+    <Transaction>2024/06/30 13:01:23.687,C:\Delphi\SysSchedules354\SysSchedules354\uCadastroUser.pas=C:\Delphi\SysSchedules354\SysSchedules354\Unit1.pas</Transaction>
+    <Transaction>2024/06/30 13:01:23.687,C:\Delphi\SysSchedules354\SysSchedules354\uCadastroUser.fmx=C:\Delphi\SysSchedules354\SysSchedules354\Unit1.fmx</Transaction>
+  </Transactions>
+</BorlandProject>
